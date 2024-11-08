@@ -1,4 +1,6 @@
-const removeDuplicates=(nums:number[]):number[]=>{
+type removeDuplicatesType=(nums:number[])=>number[]
+
+const removeDuplicates:removeDuplicatesType=(nums)=>{
     const newArr:number[]=[];
     nums.forEach((el:number) => {
         console.log(el);
