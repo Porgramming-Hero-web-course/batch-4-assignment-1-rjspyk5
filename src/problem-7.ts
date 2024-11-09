@@ -1,4 +1,4 @@
-{class Car {
+class Car {
     make: string;
     model: string;
     year: number;
@@ -13,4 +13,4 @@
       const currentYear = new Date().getFullYear();
       return currentYear - this.year;
     }
-  }}
+  }
