@@ -1,5 +1,4 @@
-const validateKey=<T>(obj: T, keys: keyof T[]):boolean=>{
-
-return keys.every((el:string)=>el in obj)
+const validateKeys=<T extends object>(obj: T, keys: (keyof T)[]):boolean=>{
+return keys.every((el)=>el in obj)
 
 }
